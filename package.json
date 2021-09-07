@@ -64,7 +64,8 @@
     "scrollreveal": "^4.0.5",
     "sharp": "^0.29.0",
     "smooth-scroll": "^16.1.0",
-    "styled-components": "^5.3.0"
+    "styled-components": "^5.3.0",
+    "xmlhttprequest-ssl": "^1.6.2"
   },
   "devDependencies": {
     "@babel/core": "^7.14.0",
