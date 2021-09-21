@@ -151,11 +151,11 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingId: 'G-ZCCYG72J5S', // FIXME: Evaluate if this works
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-gtag`,
+    //   options: {
+    //     trackingId: 'G-ZCCYG72J5S', // FIXME: Evaluate if this works
+    //   },
+    // },
   ],
 };
