@@ -67,9 +67,9 @@ const Hero = () => {
       exceptional digital experiences. Currently, I'm an engineer at{' '}
       <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
         Upstatement
-      </a>{' '}
-      focused on building accessible, human-centered products. */}
-      Currently a Computer Science student at Vanier College with a passion
+      </a>{' '} */}
+      focused on building accessible, human-centered products.
+      Currently a Computer Science student at {' '} <a href="https://www.vaniercollege.qc.ca/" target="_blank" rel="noreferrer">Vanier College</a> {' '}
       for anything hardware and software. Welcome to my portfolio!
     </p>
   );
