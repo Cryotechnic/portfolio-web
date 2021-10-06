@@ -125,7 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React', 'PHP', 'Apache', 'Node.js', 'WordPress', 'C#', 'Python'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'React',
+    'PHP',
+    'Apache',
+    'Node.js',
+    'WordPress',
+    'C#',
+    'Python',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -139,13 +148,13 @@ const About = () => {
               interest in web development started back in 2012 when I decided to try editing custom
               Tumblr themes — turns out hacking together a custom reblog button taught me a lot
               about HTML &amp; CSS! */}
-              If you've stumbled here on accident, hi! Welcome to my little corner of the internet. I'm Ron,
-              a soon-to-be full-stack developer. I started programming in high school, have a passion for anything computer-related,
-              and I'm always looking to learn new things.  
+              If you've stumbled here on accident, hi! Welcome to my little corner of the internet.
+              I'm Ron, a soon-to-be full-stack developer. I started programming in high school, have
+              a passion for anything computer-related, and I'm always looking to learn new things.
             </p>
 
             <p>
-              Fast-forward to today, and I'm currently enrolled at {' '}
+              Fast-forward to today, and I'm currently enrolled at{' '}
               <a href="https://us.mullenlowe.com/">Vanier College</a>, as a full-time student.
             </p>
 
@@ -161,8 +170,8 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
-              width={500}
+              src="../../images/me.jpeg"
+              width={400}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Headshot"
