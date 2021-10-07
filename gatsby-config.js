@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Ron Friedman',
     description:
-      "Computer Science student at Vanier College with a passion for anything hardware and software",
+      'Computer Science student at Vanier College with a passion for anything hardware and software',
     siteUrl: 'https://ronfriedman.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@cryotechnical',
@@ -151,11 +151,11 @@ module.exports = {
         ],
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-google-gtag`,
-    //   options: {
-    //     trackingId: 'G-ZCCYG72J5S', // FIXME: Evaluate if this works
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingId: 'UA-99652921-2', // FIXME: Evaluate if this works
+      },
+    },
   ],
 };
