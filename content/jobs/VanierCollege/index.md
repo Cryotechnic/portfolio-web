@@ -1,9 +1,9 @@
 ---
 date: '2019-09-01'
 title: 'Web Developer'
-company: 'Vanier AI'
+company: 'Vanier Robotics'
 location: 'Saint-Laurent, QC'
-range: 'September 2020 - April 2021'
+range: 'September 2019 - February 2020'
 url: 'https://www.vaniercollege.qc.ca/robotics/'
 ---
 
