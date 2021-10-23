@@ -152,9 +152,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: `gatsby-plugin-google`,
       options: {
-        trackingId: 'UA-99652921-2', // FIXME: Evaluate if this works
+        trackingId: 'UA-99652921-3', // FIXME: Evaluate if this works
       },
     },
   ],
