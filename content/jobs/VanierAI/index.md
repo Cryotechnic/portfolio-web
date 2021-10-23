@@ -11,3 +11,4 @@ url: 'https://www.vaniercollege.qc.ca/robotics/'
 - Created datasets in order to properly train neural models on object detection using various Google APIs
 - Produced extensive web resources in order to inform the Vanier students of the utility of AI
 - Spread resources to other various education establishments in order to promote the usage of AI in our daily lives
+- Performed maintenance on web resources based on feedback received from various professors
