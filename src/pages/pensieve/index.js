@@ -147,16 +147,19 @@ const PensievePage = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Helmet title="Pensieve" />
+      <Helmet title="WIP" />
 
       <StyledMainContainer>
         <header>
-          <h1 className="big-heading">Pensieve</h1>
+          <h1 className="big-heading">Posts (WIP)</h1>
           <p className="subtitle">
             <a href="https://www.wizardingworld.com/writing-by-jk-rowling/pensieve">
               a collection of memories
             </a>
           </p>
+          If you've landed on this page on accident, please head back to the homepage. This page is
+          a work in progress and contains a lot of things that aren't finished yet and will probably
+          break when you try to use it.
         </header>
 
         <StyledGrid>
