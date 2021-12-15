@@ -1,6 +1,6 @@
 ---
-title: Dark Mode Toggle
-description: Dark mode without the flash of default theme
+title: Template Card
+description: Basically a template card with fluff so I can test the card system.
 date: 2021-04-21
 draft: false
 slug: /pensieve/dark-mode-toggle
