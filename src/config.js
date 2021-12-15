@@ -18,10 +18,10 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/ron-friedman-2436a11a0',
     },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
-    },
+    // {
+    //   name: 'Codepen',
+    //   url: 'https://codepen.io/Cry0',
+    // },
   ],
 
   navLinks: [
