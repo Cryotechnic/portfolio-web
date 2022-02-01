@@ -63,13 +63,11 @@ const Hero = () => {
   const three = <h3 className="big-heading">I do programming things for people.</h3>;
   const four = (
     <p>
-      {/* I'm a Boston-based software engineer who specializes in building (and occasionally designing)
-      exceptional digital experiences. Currently, I'm an engineer at{' '}
-      <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-        Upstatement
-      </a>{' '} */}
-      focused on building accessible, human-centered products.
-      Currently a Computer Science student at {' '} <a href="https://www.vaniercollege.qc.ca/" target="_blank" rel="noreferrer">Vanier College</a> {' '}
+      focused on building accessible, human-centered products. Currently a Computer Science student
+      at{' '}
+      <a href="https://www.vaniercollege.qc.ca/" target="_blank" rel="noreferrer">
+        Vanier College
+      </a>{' '}
       for anything hardware and software. Welcome to my portfolio!
     </p>
   );
