@@ -246,7 +246,8 @@ const Menu = () => {
           onClick={toggleMenu}
           menuOpen={menuOpen}
           ref={buttonRef}
-          aria-label="Menu">
+          aria-label="Menu"
+        >
           <div className="ham-box">
             <div className="ham-box-inner" />
           </div>
@@ -268,6 +269,9 @@ const Menu = () => {
 
             <a href="/resume.pdf" className="resume-link">
               Resume
+            </a>
+            <a href="/" className="resume-link">
+              Cover Letter
             </a>
           </nav>
         </StyledSidebar>

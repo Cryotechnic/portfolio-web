@@ -181,6 +181,12 @@ const Nav = ({ isHome }) => {
     </a>
   );
 
+  const CCLink = (
+    <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+      Cover Letter{' '}
+    </a>
+  );
+
   return (
     <StyledHeader scrollDirection={scrollDirection} scrolledToTop={scrolledToTop}>
       <StyledNav>
@@ -197,7 +203,10 @@ const Nav = ({ isHome }) => {
                     </li>
                   ))}
               </ol>
-              <div>{ResumeLink}</div>
+              <div>
+                {ResumeLink}
+                {CCLink}
+              </div>
             </StyledLinks>
 
             <Menu />
@@ -232,6 +241,7 @@ const Nav = ({ isHome }) => {
                   <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                     <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
                       {ResumeLink}
+                      {CCLink}
                     </div>
                   </CSSTransition>
                 )}
