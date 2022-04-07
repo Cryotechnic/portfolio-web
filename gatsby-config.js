@@ -5,7 +5,7 @@ module.exports = {
     title: 'Ron Friedman',
     description:
       'Computer Science student at Vanier College with a passion for anything hardware and software',
-    siteUrl: 'https://ronfriedman.com', // No trailing slash allowed!
+    siteUrl: 'https://ronfriedman.tech', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@cryotechnical',
   },
@@ -17,7 +17,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
-    'gatsby-plugin-dark-mode',
     'babel-plugin-styled-components',
     {
       resolve: `gatsby-plugin-manifest`,
