@@ -3,7 +3,7 @@ date: '2022-05-16'
 title: 'Software Developer Intern'
 company: 'Bell Canada'
 location: 'Montreal, QC'
-range: 'May 16 2022-Present'
+range: 'May 16 2022 - November 30th 2022'
 url: 'https://bell.ca'
 ---
 
