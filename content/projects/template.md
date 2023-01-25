@@ -8,7 +8,7 @@ tech:
   - 'Dev'
   - 'WIP'
 company: 'Upstatement'
-showInProjects: true
+showInProjects: false
 ---
 
 This section is still under construction and will be updated soon. Stay tuned!
