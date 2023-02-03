@@ -3,7 +3,7 @@ title: Template Card
 description: Basically a template card with fluff so I can test the card system.
 date: 2021-04-21
 draft: false
-slug: /pensieve/dark-mode-toggle
+slug: /pensieve/template/
 tags:
   - Theming
   - Dark Mode
