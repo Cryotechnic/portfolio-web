@@ -1,87 +1,78 @@
-<div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
-</div>
-<h1 align="center">
-  ronfriedman.dev - v1
-</h1>
-<p align="center">
-  Based on the fourth iteration of <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
-</p>
-<p align="center">
-  Previous iterations:
-  <a href="https://github.com/bchiang7/v1" target="_blank">v1</a>,
-  <a href="https://github.com/bchiang7/v2" target="_blank">v2</a>,
-  <a href="https://github.com/bchiang7/bchiang7.github.io" target="_blank">v3</a>
-</p>
-<p align="center">
-  <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
-  </a>
-</p>
+# next-template
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
 
-## 🚨 Forking this repo (please read!)
+## Features
 
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+- Radix UI Primitives
+- Tailwind CSS
+- Fonts with `@next/font`
+- Icons from [Lucide](https://lucide.dev)
+- Dark mode with `next-themes`
+- Automatic import sorting with `@ianvs/prettier-plugin-sort-imports`
 
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+## Tailwind CSS Features
 
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
+- Class merging with `taiwind-merge`
+- Animation with `tailwindcss-animate`
+- Conditional classes with `clsx`
+- Variants with `class-variance-authority`
+- Automatic class sorting with `eslint-plugin-tailwindcss`
 
-### TL;DR
+## Import Sort
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+The starter comes with `@ianvs/prettier-plugin-sort-imports` for automatically sort your imports.
 
-## 🛠 Installation & Set Up
+### Input
 
-1. Install the Gatsby CLI
+```tsx
+import * as React from "react"
+import Link from "next/link"
 
-   ```sh
-   npm install -g gatsby-cli
-   ```
+import { siteConfig } from "@/config/site"
+import { buttonVariants } from "@/components/ui/button"
+import "@/styles/globals.css"
+import { twMerge } from "tailwind-merge"
 
-2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+import { NavItem } from "@/types/nav"
+import { cn } from "@/lib/utils"
+```
 
-   ```sh
-   nvm install
-   ```
+### Output
 
-3. Install dependencies
+```tsx
+import * as React from "react"
+// React is always first.
+import Link from "next/link"
+// Followed by next modules.
+import { twMerge } from "tailwind-merge"
 
-   ```sh
-   yarn
-   ```
+// Followed by third-party modules
+// Space
+import "@/styles/globals.css"
+// styles
+import { NavItem } from "@/types/nav"
+// types
+import { siteConfig } from "@/config/site"
+// config
+import { cn } from "@/lib/utils"
+// lib
+import { buttonVariants } from "@/components/ui/button"
 
-4. Start the development server
+// components
+```
 
-   ```sh
-   npm start
-   ```
+### Class Merging
 
-## 🚀 Building and Running for Production
+The `cn` util handles conditional classes and class merging.
 
-1. Generate a full static production build
+### Input
 
-   ```sh
-   npm run build
-   ```
+```ts
+cn("px-2 bg-slate-100 py-2 bg-slate-200")
+// Outputs `p-2 bg-slate-200`
+```
 
-1. Preview the site as it will appear once deployed
+## License
 
-   ```sh
-   npm run serve
-   ```
-
-## 🎨 Color Reference
-
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#112240](https://via.placeholder.com/10/0a192f?text=+) `#112240` |
-| Lightest Navy  | ![#233554](https://via.placeholder.com/10/303C55?text=+) `#233554` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
