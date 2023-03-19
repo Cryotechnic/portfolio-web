@@ -8,13 +8,15 @@ specifiers:
   '@mantine/hooks': ^6.0.2
   '@mantine/modals': ^6.0.2
   '@mantine/next': ^6.0.2
+  '@mantine/notifications': ^6.0.2
   '@mantine/nprogress': ^6.0.2
   '@mantine/prism': ^6.0.2
   '@mantine/spotlight': ^6.0.2
-  '@tabler/icons-react': ^2.10.0
+  '@tabler/icons-react': ^2.11.0
   '@types/node': 18.15.3
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
+  cookies-next: ^2.1.1
   embla-carousel-react: ^7.1.0
   eslint: 8.36.0
   eslint-config-next: 13.2.4
@@ -31,13 +33,15 @@ dependencies:
   '@mantine/hooks': 6.0.2_react@18.2.0
   '@mantine/modals': 6.0.2_reujnkpez4ozmj6vonlofpozxe
   '@mantine/next': 6.0.2_qqau3dvbojnwvgou4gzbrwl7sy
+  '@mantine/notifications': 6.0.2_reujnkpez4ozmj6vonlofpozxe
   '@mantine/nprogress': 6.0.2_reujnkpez4ozmj6vonlofpozxe
   '@mantine/prism': 6.0.2_reujnkpez4ozmj6vonlofpozxe
   '@mantine/spotlight': 6.0.2_reujnkpez4ozmj6vonlofpozxe
-  '@tabler/icons-react': 2.10.0_react@18.2.0
+  '@tabler/icons-react': 2.11.0_react@18.2.0
   '@types/node': 18.15.3
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
+  cookies-next: 2.1.1
   embla-carousel-react: 7.1.0_react@18.2.0
   eslint: 8.36.0
   eslint-config-next: 13.2.4_j4766f7ecgqbon3u7zlxn5zszu
@@ -365,6 +369,22 @@ packages:
     transitivePeerDependencies:
       - '@emotion/react'
       - '@emotion/server'
+    dev: false
+
+  /@mantine/notifications/6.0.2_reujnkpez4ozmj6vonlofpozxe:
+    resolution: {integrity: sha512-EpQgTl5j925N88WY05etFe5ov71UnJRep6nGwv+CVATXmNV8E8z4b+2R6B5ofg4bW9VkS2BJKT2TgKRzaCMLeg==}
+    peerDependencies:
+      '@mantine/core': 6.0.2
+      '@mantine/hooks': 6.0.2
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+    dependencies:
+      '@mantine/core': 6.0.2_md2nfwiomeeos7ogkicwnxcafa
+      '@mantine/hooks': 6.0.2_react@18.2.0
+      '@mantine/utils': 6.0.2_react@18.2.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-transition-group: 4.4.2_biqbaboplfbrettd7655fr4n2y
     dev: false
 
   /@mantine/nprogress/6.0.2_reujnkpez4ozmj6vonlofpozxe:
@@ -733,22 +753,30 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@tabler/icons-react/2.10.0_react@18.2.0:
-    resolution: {integrity: sha512-cWJPhPv7QG89OByVaMc3cs0mY9yIHf4ctoRrjQ4+uXjna2xx0SkwfXAtgt8UhRnp/b47Pr3h59P8Vojw49d2jA==}
+  /@tabler/icons-react/2.11.0_react@18.2.0:
+    resolution: {integrity: sha512-Mbie8IFLrtI0sGm802Bmierle0ixIi7FVczShoLjPZwRM0da1HcD588TF7oMuQ09zd241BY+L7M/f0Q6lquBng==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
-      '@tabler/icons': 2.10.0
+      '@tabler/icons': 2.11.0
       prop-types: 15.8.1
       react: 18.2.0
     dev: false
 
-  /@tabler/icons/2.10.0:
-    resolution: {integrity: sha512-rj9xrHTSw7bPpylx8g9xhhUgO9NYKX1wGnGrMaFS5CQ9KS+jhwhKFqbZaQKhXNhpvI0cLEEW6GaRXdrC3iBs1A==}
+  /@tabler/icons/2.11.0:
+    resolution: {integrity: sha512-KPESQnvHoSpbAdgzDdrSmeZ9AE8fSU12fU3Cag79uXJCUkC8f741fcvPJPsFMDe0S96VSq3mMYF8JnA7a570uQ==}
+    dev: false
+
+  /@types/cookie/0.4.1:
+    resolution: {integrity: sha512-XW/Aa8APYr6jSVVA1y/DEIZX0/GMKLEVekNG727R8cs56ahETkRAy/3DR7+fJyh7oUgGwNQaRfXCun0+KbWY7Q==}
     dev: false
 
   /@types/json5/0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
+    dev: false
+
+  /@types/node/16.18.16:
+    resolution: {integrity: sha512-ZOzvDRWp8dCVBmgnkIqYCArgdFOO9YzocZp8Ra25N/RStKiWvMOXHMz+GjSeVNe5TstaTmTWPucGJkDw0XXJWA==}
     dev: false
 
   /@types/node/18.15.3:
@@ -1018,8 +1046,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /caniuse-lite/1.0.30001467:
-    resolution: {integrity: sha512-cEdN/5e+RPikvl9AHm4uuLXxeCNq8rFsQ+lPHTfe/OtypP3WwnVVbjn+6uBV7PaFL6xUFzTh+sSCOz1rKhcO+Q==}
+  /caniuse-lite/1.0.30001468:
+    resolution: {integrity: sha512-zgAo8D5kbOyUcRAgSmgyuvBkjrGk5CGYG5TYgFdpQv+ywcyEpo1LOWoG8YmoflGnh+V+UsNuKYedsoYs0hzV5A==}
     dev: false
 
   /chalk/2.4.2:
@@ -1075,6 +1103,19 @@ packages:
 
   /convert-source-map/1.9.0:
     resolution: {integrity: sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==}
+    dev: false
+
+  /cookie/0.4.2:
+    resolution: {integrity: sha512-aSWTXFzaKWkvHO1Ny/s+ePFpvKsPnjc551iI41v3ny/ow6tBG5Vd+FuqGNhh1LxOmVzOlGUriIlOaokOvhaStA==}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /cookies-next/2.1.1:
+    resolution: {integrity: sha512-AZGZPdL1hU3jCjN2UMJTGhLOYzNUN9Gm+v8BdptYIHUdwz397Et1p+sZRfvAl8pKnnmMdX2Pk9xDRKCGBum6GA==}
+    dependencies:
+      '@types/cookie': 0.4.1
+      '@types/node': 16.18.16
+      cookie: 0.4.2
     dev: false
 
   /core-util-is/1.0.3:
@@ -1198,6 +1239,13 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       esutils: 2.0.3
+    dev: false
+
+  /dom-helpers/5.2.1:
+    resolution: {integrity: sha512-nRCa7CK3VTrM2NmGkIy4cbK7IZlgBE/PYMn55rrXefr5xXDP0LdtfPnblFDoVdcAfslJ7or6iqAUnx0CCGIWQA==}
+    dependencies:
+      '@babel/runtime': 7.21.0
+      csstype: 3.1.1
     dev: false
 
   /dom-serializer/1.4.1:
@@ -2323,7 +2371,7 @@ packages:
     dependencies:
       '@next/env': 13.2.4
       '@swc/helpers': 0.4.14
-      caniuse-lite: 1.0.30001467
+      caniuse-lite: 1.0.30001468
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -2633,6 +2681,20 @@ packages:
       use-latest: 1.2.1_pmekkgnqduwlme35zpnqhenc34
     transitivePeerDependencies:
       - '@types/react'
+    dev: false
+
+  /react-transition-group/4.4.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-/RNYfRAMlZwDSr6z4zNKV6xu53/e2BuaBbGhbyYIXTrmgu/bGHzmqOs7mJSJBHy9Ud+ApHx3QjrkKSp1pxvlFg==}
+    peerDependencies:
+      react: '>=16.6.0'
+      react-dom: '>=16.6.0'
+    dependencies:
+      '@babel/runtime': 7.21.0
+      dom-helpers: 5.2.1
+      loose-envify: 1.4.0
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react/18.2.0:

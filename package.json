@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next dev",
+    "lint": "next lint",
+    "start-build": "next build && next start"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -16,13 +17,15 @@
     "@mantine/hooks": "^6.0.2",
     "@mantine/modals": "^6.0.2",
     "@mantine/next": "^6.0.2",
+    "@mantine/notifications": "^6.0.2",
     "@mantine/nprogress": "^6.0.2",
     "@mantine/prism": "^6.0.2",
     "@mantine/spotlight": "^6.0.2",
-    "@tabler/icons-react": "^2.10.0",
+    "@tabler/icons-react": "^2.11.0",
     "@types/node": "18.15.3",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
+    "cookies-next": "^2.1.1",
     "embla-carousel-react": "^7.1.0",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
