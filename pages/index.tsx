@@ -1,18 +1,10 @@
-import { Switch, Group, useMantineColorScheme, useMantineTheme } from '@mantine/core';
-import { IconSun, IconMoonStars } from '@tabler/icons-react';
+import { Group } from '@mantine/core';
+import { HeaderSimple } from '../components/nav/HeaderSimple';
 
 export default function Home() {
-  const { colorScheme, toggleColorScheme } = useMantineColorScheme();
-  const dark = colorScheme === 'dark';
   return (
-    <Group position="center" my={30}>
-    <Switch
-      checked={dark}
-      onChange={() => toggleColorScheme()}
-      size="lg"
-      onLabel={<IconSun color="white" size="1.25rem" stroke={1.5} />}
-      offLabel={<IconMoonStars color="black" size="1.25rem" stroke={1.5} />}
-    />
+  <Group position="right" my={30}>
+    <HeaderSimple links={[{ link: '#about', label: '01. About' }, { link: '#experience', label: '02. Experience' }, { link: '#work', label: '03. Work' }, { link: '#contact', label: '04. Contact' }]} />
   </Group>
   );
 }

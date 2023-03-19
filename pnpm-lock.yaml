@@ -5,6 +5,7 @@ specifiers:
   '@emotion/server': ^11.10.0
   '@mantine/carousel': ^6.0.2
   '@mantine/core': ^6.0.2
+  '@mantine/ds': ^6.0.2
   '@mantine/hooks': ^6.0.2
   '@mantine/modals': ^6.0.2
   '@mantine/next': ^6.0.2
@@ -30,6 +31,7 @@ dependencies:
   '@emotion/server': 11.10.0
   '@mantine/carousel': 6.0.2_qkf4nktw6nri354b3oj6t5zzay
   '@mantine/core': 6.0.2_md2nfwiomeeos7ogkicwnxcafa
+  '@mantine/ds': 6.0.2_xll3e5ux2oqzj352k6ee4ft4si
   '@mantine/hooks': 6.0.2_react@18.2.0
   '@mantine/modals': 6.0.2_reujnkpez4ozmj6vonlofpozxe
   '@mantine/next': 6.0.2_qqau3dvbojnwvgou4gzbrwl7sy
@@ -329,6 +331,25 @@ packages:
     transitivePeerDependencies:
       - '@emotion/react'
       - '@types/react'
+    dev: false
+
+  /@mantine/ds/6.0.2_xll3e5ux2oqzj352k6ee4ft4si:
+    resolution: {integrity: sha512-T4dypmfG1tlVUEJv8m31ToxbIF9HLvoOdB6pd4bgyYBP1AbgZqTviDO8J4Pod/+J9PyAA75qqLVYcc6Z46jwkg==}
+    peerDependencies:
+      '@mantine/core': 6.0.2
+      '@mantine/hooks': 6.0.2
+      '@mantine/prism': 6.0.2
+      '@tabler/icons-react': '*'
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+    dependencies:
+      '@mantine/core': 6.0.2_md2nfwiomeeos7ogkicwnxcafa
+      '@mantine/hooks': 6.0.2_react@18.2.0
+      '@mantine/prism': 6.0.2_reujnkpez4ozmj6vonlofpozxe
+      '@mantine/utils': 6.0.2_react@18.2.0
+      '@tabler/icons-react': 2.11.0_react@18.2.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /@mantine/hooks/6.0.2_react@18.2.0:
