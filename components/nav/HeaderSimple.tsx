@@ -74,9 +74,9 @@ export function HeaderSimple({ links }: HeaderSimpleProps) {
   ));
 
   return (
-    <Header height={60} mb={120}>
+    <Header height={60} mb={120} style={{width: "100%"}}>
       <Container className={classes.header}>
-        <MantineLogo size={28} style={{margin: ".5rem"}}/>
+        <MantineLogo size={28} style={{margin: ".5rem", textAlign: "left"}}/>
         <Group spacing={10} className={classes.links} style={{margin: ".5rem"}}>
           {items}
         </Group>
