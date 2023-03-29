@@ -51,6 +51,7 @@ function Card({ image, title, category }: CardProps) {
     >
       <div>
         <Text className={classes.category} size="xs">
+          {/* For loop iterating thru each element in passed category array */}
           {category}
         </Text>
         <Title order={3} className={classes.title}>
@@ -68,8 +69,8 @@ const data = [
   {
     image:
       'https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/NewBanner2022.webp',
-    title: 'Best forests to visit in North America',
-    category: 'nature',
+    title: 'Collapse Launcher',
+    category: ['Launcher', 'Minecraft', 'Java'],
   },
   {
     image:

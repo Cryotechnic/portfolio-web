@@ -10,10 +10,8 @@
     "start-build": "next build && next start"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.5.4",
     "@emotion/react": "^11.10.6",
     "@emotion/server": "^11.10.0",
-    "@emotion/styled": "^11.10.6",
     "@mantine/carousel": "^6.0.5",
     "@mantine/core": "^6.0.5",
     "@mantine/ds": "^6.0.5",
@@ -34,7 +32,6 @@
     "embla-carousel-react": "^7.1.0",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
-    "framer-motion": "^10.9.2",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
