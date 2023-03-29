@@ -1,7 +1,9 @@
-import { Group } from '@mantine/core';
+import { Modal, Group, Button } from '@mantine/core';
 import { HeaderSimple } from '../components/nav/HeaderSimple';
 import { CarouselProjects } from '../components/body/CarouselProjects';
 import { BadgeCard } from '../components/body/BadgeCard';
+// import { useDisclosure } from '@mantine/hooks';
+// import { , Group, Button } from '@mantine/core';
 
 export default function Home() {
   return (
@@ -12,7 +14,8 @@ export default function Home() {
         { link: '#work', label: '03. Work' },
         { link: '#contact', label: '04. Contact' }
       ]} />
-  <CarouselProjects />
+  <CarouselProjects
+  />
   {/* <Group position="center">
     <BadgeCard 
       image="https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/NewBanner2022.webp"
