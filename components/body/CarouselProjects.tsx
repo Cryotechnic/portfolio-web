@@ -81,10 +81,17 @@ function Card({ image, title, badges }: CardProps) {
         }}
         >
         {/* Modal content */}
+        {/* Flavor text that explains what this project is about */}
+        <Text size="lg" style={{ marginBottom: theme.spacing.md }}>
+          {/* Grab description from github api using nextjs */}
+          {/* {description} */}
+          This is a launcher for Collapse. It is built using C# and .NET. It is a Windows application.
+          
+        </Text>
       </Modal>
 
       <Group position="center">
-        <Button onClick={open}>Open centered Modal</Button>
+        <Button onClick={open}>Learn More</Button>
       </Group>
     </>
     </Paper>
@@ -98,8 +105,9 @@ const data = [
     title: 'Collapse Launcher',
     badges: [
       { emoji: '📦', label: 'Launcher' },
-      { emoji: '🎮', label: 'Minecraft' },
-      { emoji: '☕', label: 'Java' },
+      { emoji: '🎮', label: '.NET' },
+      { emoji: '☕', label: 'C#' },
+      { emoji: '', label: 'Windows' },
     ],
   },
   {
