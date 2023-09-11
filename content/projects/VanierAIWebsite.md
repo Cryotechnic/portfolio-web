@@ -9,6 +9,7 @@ tech:
   - CSS
   - JavaScript
 showInProjects: true
+company: 'Vanier College'
 ---
 
 Website for Vanier College AI built in order to present the resources available to students and faculty in the field of Artificial Intelligence. These resources include tutorials, articles, and videos.

@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '2022-01-22'
 title: 'MoodChangers'
 cover: './demo.png'
 github: 'https://github.com/mike1572/face'

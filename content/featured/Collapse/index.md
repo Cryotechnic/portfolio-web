@@ -1,5 +1,5 @@
 ---
-date: '4'
+date: '2022-09-10'
 title: 'Collapse'
 cover: './demo.png'
 github: 'https://github.com/neon-nyan/Collapse'
