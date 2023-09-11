@@ -1,7 +1,7 @@
 ---
 date: '2022-01-22'
 title: 'MoodChangers'
-cover: './demo.png'
+coverImage: './demo.png'
 github: 'https://github.com/mike1572/face'
 external: 'https://face-a713b.web.app/'
 tech:

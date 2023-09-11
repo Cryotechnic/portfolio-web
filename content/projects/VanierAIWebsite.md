@@ -1,7 +1,7 @@
 ---
 date: '2022-03-03'
 title: 'VanierAI Website'
-cover: './VanierAIWebsite.png'
+coverImage: './VanierAIWebsite.png'
 github: 'https://github.com/Cryotechnic/class-website'
 external: 'https://vaniercollegeai.ca/'
 tech:

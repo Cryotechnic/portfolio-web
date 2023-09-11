@@ -1,7 +1,7 @@
 ---
 date: '2022-09-10'
 title: 'Collapse'
-cover: './demo.png'
+coverImage: './demo.png'
 github: 'https://github.com/neon-nyan/Collapse'
 tech:
   - WinUI 3
