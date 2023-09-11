@@ -304,7 +304,7 @@ const Featured = () => {
           node {
             frontmatter {
               title
-              cover {
+              coverImage {
                 childImageSharp {
                   gatsbyImageData(width: 700, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
                 }
