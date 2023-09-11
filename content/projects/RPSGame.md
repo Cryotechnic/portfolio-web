@@ -1,5 +1,6 @@
 ---
 title: 'RPSGame'
+date: '2020-03-27'
 github: 'https://github.com/Cryotechnic/PythonInternship'
 external: 'https://colab.research.google.com/drive/1p5bFXq-gzKhhSh4HnvTB0UjODbTk0UZS?usp=sharing'
 tech:

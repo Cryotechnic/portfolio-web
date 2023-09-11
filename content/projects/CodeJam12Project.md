@@ -6,7 +6,7 @@ tech:
   - Flask
   - React
   - TailWindCSS
-showInProjects: false
+showInProjects: true
 company: 'The Bro-Grammers'
 ---
 

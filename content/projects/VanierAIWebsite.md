@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'VanierAI Website'
-cover: './website.png'
+cover: './VanierAIWebsite.png'
 github: 'https://github.com/Cryotechnic/class-website'
 external: 'https://vaniercollegeai.ca/'
 tech:
