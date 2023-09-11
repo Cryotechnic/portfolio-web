@@ -10,9 +10,13 @@ module.exports = {
       name: 'Instagram',
       url: 'https://www.instagram.com/ron_friedman123/',
     },
+    // {
+    //   name: 'Twitter',
+    //   url: 'https://twitter.com/CryoTechnical',
+    // },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/CryoTechnical',
+      name: 'Devpost',
+      url: 'https://devpost.com/CryoTechnic',
     },
     {
       name: 'Linkedin',
