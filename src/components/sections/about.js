@@ -146,12 +146,14 @@ const About = () => {
             <p>
               If you've stumbled here on accident, hi! Welcome to my little corner of the internet.
               I'm Ron, a soon-to-be full-stack developer. I started programming in high school, have
-              a passion for anything computer-related, and I'm always looking to learn new things.
+              a passion for anything computer-related, and I'm always looking to learn new things. I
+              continued studying in Computer Science, graduating with a DEP in Computer Science from {' '}
+              <a href="https://www.vaniercollege.qc.ca/" target='_blank'>Vanier College</a>.
             </p>
 
             <p>
               Fast-forward to today, and I'm currently enrolled at{' '}
-              <a href="https://us.mullenlowe.com/">Vanier College</a>, as a full-time student.
+              <a href="https://etsmtl.ca/">ETS</a>, as a full-time undergraduate student.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
