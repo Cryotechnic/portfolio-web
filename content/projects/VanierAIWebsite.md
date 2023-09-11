@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '2022-03-03'
 title: 'VanierAI Website'
 cover: './VanierAIWebsite.png'
 github: 'https://github.com/Cryotechnic/class-website'

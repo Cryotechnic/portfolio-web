@@ -1,11 +1,12 @@
 ---
+date: '2022-12-20'
 title: 'CodeJam12 Project'
 github: 'https://github.com/Cryotechnic/codejam12-project'
 tech:
   - Python
   - Flask
   - React
-  - TailWindCSS
+  - TailwindCSS
 showInProjects: true
 company: 'The Bro-Grammers'
 ---
