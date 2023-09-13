@@ -4,8 +4,8 @@ module.exports = {
   siteMetadata: {
     title: 'Ron Friedman',
     description:
-      'Computer Science student at Vanier College with a passion for anything hardware and software',
-    siteUrl: 'https://ronfriedman.tech', // No trailing slash allowed!
+      'Software Engineering undergraduate at ETS with a passion for anything hardware and software',
+    siteUrl: 'https://ronfriedman.dev', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@cryotechnical',
   },
