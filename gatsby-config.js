@@ -6,7 +6,7 @@ module.exports = {
     description:
       'Software Engineering undergraduate at ETS with a passion for anything hardware and software',
     siteUrl: 'https://ronfriedman.dev', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    image: '/og_v2.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@cryotechnical',
   },
   plugins: [
