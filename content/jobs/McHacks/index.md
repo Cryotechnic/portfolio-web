@@ -5,6 +5,7 @@ company: 'MLH McHacks'
 location: 'Montreal, QC'
 range: 'January 21 2022 - January 23 2022'
 url: 'https://www.mchacks.ca/'
+showInJobs: true
 ---
 
 - Participated at a 72-hour hackathon with a group of 3 other members

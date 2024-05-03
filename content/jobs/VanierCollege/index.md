@@ -5,6 +5,7 @@ company: 'Vanier Robotics'
 location: 'Saint-Laurent, QC'
 range: 'September 2019 - February 2020'
 url: 'https://www.vaniercollege.qc.ca/robotics/'
+showInJobs: false
 ---
 
 - Developed a comprehensive and reactive website for the Vanier College Robotics competition (2nd Place Winner)

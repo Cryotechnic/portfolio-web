@@ -168,7 +168,10 @@ const Jobs = () => {
   const data = useStaticQuery(graphql`
     query {
       jobs: allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/jobs/" } }
+        filter: {
+          fileAbsolutePath: { regex: "/jobs/" }
+          frontmatter: { showInJobs: { ne: false } }
+        }
         sort: { frontmatter: { date: DESC } }
       ) {
         edges {

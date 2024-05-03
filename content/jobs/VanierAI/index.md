@@ -5,6 +5,7 @@ company: 'Vanier AI'
 location: 'Saint-Laurent, QC'
 range: 'September 2020 - April 2021'
 url: 'https://www.vaniercollege.qc.ca/robotics/'
+showInJobs: false
 ---
 
 - Produced educational material in order to further promote the development of artificial intelligence in the education sector

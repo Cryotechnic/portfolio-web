@@ -5,6 +5,7 @@ company: 'Bell Canada'
 location: 'Montreal, QC'
 range: 'May 16 2022 - November 30th 2022'
 url: 'https://bell.ca'
+showInJobs: true
 ---
 
 - Integrated various internal & external APIs to collect, manage and display information from various Bell network systems
