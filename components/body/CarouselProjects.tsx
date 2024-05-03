@@ -85,8 +85,7 @@ function Card({ image, title, badges }: CardProps) {
         <Text size="lg" style={{ marginBottom: theme.spacing.md }}>
           {/* Grab description from github api using nextjs */}
           {/* {description} */}
-          This is a launcher for Collapse. It is built using C# and .NET. It is a Windows application.
-          
+          {/* This is a launcher for Collapse. It is built using C# and .NET. It is a Windows application. */}
         </Text>
       </Modal>
 
