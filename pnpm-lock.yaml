@@ -6,67 +6,67 @@ settings:
 
 dependencies:
   animejs:
-    specifier: ^3.2.1
+    specifier: ^3.2.2
     version: 3.2.2
   babel-plugin-styled-components:
-    specifier: ^2.0.7
+    specifier: ^2.1.4
     version: 2.1.4(@babel/core@7.24.5)(styled-components@5.3.11)
   eslint:
     specifier: 8.32.0
     version: 8.32.0
   gatsby:
-    specifier: ^5.9.1
+    specifier: ^5.13.4
     version: 5.13.4(babel-eslint@10.1.0)(react-dom@18.3.1)(react@18.3.1)(typescript@5.4.5)
   gatsby-plugin-google-analytics:
-    specifier: ^5.4.0
+    specifier: ^5.13.1
     version: 5.13.1(gatsby@5.13.4)(react-dom@18.3.1)(react@18.3.1)
   gatsby-plugin-image:
-    specifier: ^3.4.0
+    specifier: ^3.13.1
     version: 3.13.1(@babel/core@7.24.5)(gatsby-plugin-sharp@5.13.1)(gatsby-source-filesystem@5.13.1)(gatsby@5.13.4)(graphql@16.8.1)(react-dom@18.3.1)(react@18.3.1)
   gatsby-plugin-manifest:
-    specifier: ^5.4.0
+    specifier: ^5.13.1
     version: 5.13.1(gatsby@5.13.4)(graphql@16.8.1)
   gatsby-plugin-netlify:
-    specifier: ^5.1.0
+    specifier: ^5.1.1
     version: 5.1.1(gatsby@5.13.4)(webpack@5.91.0)
   gatsby-plugin-offline:
-    specifier: ^6.4.0
+    specifier: ^6.13.2
     version: 6.13.2(gatsby@5.13.4)(react-dom@18.3.1)(react@18.3.1)
   gatsby-plugin-react-helmet:
-    specifier: ^6.4.0
+    specifier: ^6.13.1
     version: 6.13.1(gatsby@5.13.4)(react-helmet@6.1.0)
   gatsby-plugin-robots-txt:
     specifier: ^1.8.0
     version: 1.8.0(gatsby@5.13.4)
   gatsby-plugin-sharp:
-    specifier: ^5.8.1
+    specifier: ^5.13.1
     version: 5.13.1(gatsby@5.13.4)(graphql@16.8.1)
   gatsby-plugin-sitemap:
-    specifier: ^6.4.0
+    specifier: ^6.13.1
     version: 6.13.1(gatsby@5.13.4)(react-dom@18.3.1)(react@18.3.1)
   gatsby-plugin-styled-components:
-    specifier: ^6.4.0
+    specifier: ^6.13.1
     version: 6.13.1(babel-plugin-styled-components@2.1.4)(gatsby@5.13.4)(react-dom@18.3.1)(react@18.3.1)(styled-components@5.3.11)
   gatsby-remark-external-links:
     specifier: 0.0.4
     version: 0.0.4
   gatsby-remark-images:
-    specifier: ^7.4.0
+    specifier: ^7.13.1
     version: 7.13.1(gatsby-plugin-sharp@5.13.1)(gatsby@5.13.4)
   gatsby-remark-prismjs:
-    specifier: ^7.4.0
+    specifier: ^7.13.1
     version: 7.13.1(gatsby@5.13.4)(prismjs@1.29.0)
   gatsby-source-filesystem:
-    specifier: ^5.4.0
+    specifier: ^5.13.1
     version: 5.13.1(gatsby@5.13.4)
   gatsby-transformer-remark:
-    specifier: ^6.4.0
+    specifier: ^6.13.1
     version: 6.13.1(gatsby@5.13.4)
   gatsby-transformer-sharp:
-    specifier: ^5.4.0
+    specifier: ^5.13.1
     version: 5.13.1(gatsby-plugin-sharp@5.13.1)(gatsby@5.13.4)(graphql@16.8.1)
   lodash:
-    specifier: ^4.17.19
+    specifier: ^4.17.21
     version: 4.17.21
   prismjs:
     specifier: ^1.29.0
@@ -75,10 +75,10 @@ dependencies:
     specifier: ^15.8.1
     version: 15.8.1
   react:
-    specifier: ^18.2.0
+    specifier: ^18.3.1
     version: 18.3.1
   react-dom:
-    specifier: ^18.2.0
+    specifier: ^18.3.1
     version: 18.3.1(react@18.3.1)
   react-helmet:
     specifier: ^6.1.0
@@ -93,36 +93,36 @@ dependencies:
     specifier: ^16.1.3
     version: 16.1.3
   styled-components:
-    specifier: ^5.3.6
+    specifier: ^5.3.11
     version: 5.3.11(@babel/core@7.24.5)(react-dom@18.3.1)(react-is@18.3.1)(react@18.3.1)
 
 devDependencies:
   '@babel/core':
-    specifier: ^7.20.12
+    specifier: ^7.24.5
     version: 7.24.5
   '@babel/eslint-parser':
-    specifier: ^7.19.1
+    specifier: ^7.24.5
     version: 7.24.5(@babel/core@7.24.5)(eslint@8.32.0)
   '@babel/preset-react':
-    specifier: ^7.18.6
+    specifier: ^7.24.1
     version: 7.24.1(@babel/core@7.24.5)
   '@upstatement/eslint-config':
     specifier: ^2.0.0
     version: 2.0.0(@babel/core@7.24.5)(@babel/eslint-parser@7.24.5)(eslint-config-prettier@8.10.0)(eslint@8.32.0)(prettier@2.8.8)
   '@upstatement/prettier-config':
-    specifier: ^1.0.0
+    specifier: ^1.1.0
     version: 1.1.0
   babel-preset-gatsby:
-    specifier: ^3.4.0
+    specifier: ^3.13.2
     version: 3.13.2(@babel/core@7.24.5)(core-js@3.37.0)
   eslint-config-prettier:
-    specifier: ^8.6.0
+    specifier: ^8.10.0
     version: 8.10.0(eslint@8.32.0)
   eslint-plugin-jsx-a11y:
-    specifier: ^6.7.1
+    specifier: ^6.8.0
     version: 6.8.0(eslint@8.32.0)
   eslint-plugin-react:
-    specifier: ^7.32.1
+    specifier: ^7.34.1
     version: 7.34.1(eslint@8.32.0)
   gatsby-remark-code-titles:
     specifier: ^1.1.0
@@ -131,10 +131,10 @@ devDependencies:
     specifier: ^8.0.3
     version: 8.0.3
   lint-staged:
-    specifier: ^13.1.0
+    specifier: ^13.3.0
     version: 13.3.0
   prettier:
-    specifier: ^2.8.3
+    specifier: ^2.8.8
     version: 2.8.8
 
 packages:
