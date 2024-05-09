@@ -4,9 +4,11 @@ title: 'Collapse'
 coverImage: './demo.png'
 github: 'https://github.com/neon-nyan/Collapse'
 tech:
-  - WinUI 3
-  - .NET 7
+  - WindowsAppSDK (WinUI3)
+  - Squirrel
+  - .NET 8
   - HDiff
+  - CRC32.Net
   - Color-Thief
 
 showInProjects: true
