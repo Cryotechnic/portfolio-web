@@ -7,7 +7,7 @@ tech:
   - React Native
   - React Native Maps
   - Expo
-company: 'Upstatement'
+company: 'University of Waterloo'
 showInProjects: true
 ---
 
