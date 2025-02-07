@@ -5,6 +5,7 @@ company: 'onepoint'
 location: 'Montreal, QC'
 range: 'November 2021'
 url: 'https://www.groupeonepoint.com/fr-ca/'
+showInJobs: false
 ---
 
 - Participant at a Hackathon organized by onepoint
